@@ -1,0 +1,29 @@
+{
+  "name": "apitfood3",
+  "version": "1.0.0",
+  "description": "api Api rest para los servicios http con el frontend de react js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "Api",
+    "Rest",
+    "express",
+    "mongodb",
+    "mongoose",
+    "cors."
+  ],
+  "author": "Iran Ricardo",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "mongoose": "^5.13.2",
+    "morgan": "^1.10.0"
+  }
+}
